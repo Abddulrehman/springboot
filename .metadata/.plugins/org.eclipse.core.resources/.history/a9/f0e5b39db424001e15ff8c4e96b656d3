@@ -1,0 +1,31 @@
+package com.practice;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		
+		String vovels[]= {"a","e","i","o","u"};
+		String consonents [] = {"b","c","d","f","g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y","z"};
+		
+		String newWord="";
+		int vl=vovels.length;
+		int cl=consonents.length;
+		
+		
+		for(int i=0;i<vl; i++)
+		{
+			newWord=newWord+vovels[i];
+			
+			for(int j=i; j==2;j++)
+			{
+				newWord=newWord+consonents[i];
+			}
+		}
+		
+		
+		System.out.println("Test");
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+2023-07-18 20:34:55,545 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-07-18 20:35:00,053 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.textReader:ImageTextReader:0.0.1-SNAPSHOT @ F:\springwork\ImageTextReader\pom.xml.
+2023-07-18 20:35:02,291 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.socialmediablogapi:SocialMediaBlogApi:0.0.1-SNAPSHOT @ F:\springwork\SocialMediaBlogAPI\pom.xml.
+2023-07-18 20:35:02,343 [Worker-1: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for io.javalin:javalin:jar:3.15.0 is missing, no dependency information available
+2023-07-18 20:35:06,219 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-18 20:35:06,220 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\springwork\ImageTextReader\src\main\resources
+2023-07-18 20:35:06,228 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-18 20:35:06,228 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\springwork\ImageTextReader\src\test\resources
+2023-07-18 20:35:06,907 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-18 20:35:06,907 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\springwork\SocialMediaBlogAPI\src\main\resources
+2023-07-18 20:35:06,917 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-18 20:35:06,919 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\springwork\SocialMediaBlogAPI\src\test\resources

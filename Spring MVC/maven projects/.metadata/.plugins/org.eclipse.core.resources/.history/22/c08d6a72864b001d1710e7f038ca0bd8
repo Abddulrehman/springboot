@@ -1,0 +1,20 @@
+package org.springframework;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+   
+    ApplicationContext context= new ClassPathXmlApplicationContext("org/springframework/Config.xml");
+    
+    
+    Student student=context.getBean("student1");
+  System.out.println(student); 
+    
+    }
+}

@@ -1,0 +1,20 @@
+package com.springboot;
+
+public class Students {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int arr[] = {2,4};
+		 int a;
+		 for(int i=0;i<2;i++) {
+		 for(a=0;a<=5;a++) {
+				 if(arr[i]!=a) {
+				 System.out.println("Missing number"+a); 
+				 } 
+				
+		 }
+		/// System.out.println("Missing >>>>>>> number"+a); 
+	   }
+	}
+
+}
