@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: first-microservice
+server:
+  port: 8083
+
+  eureka:
+   instance:
+     hostname: localhost
